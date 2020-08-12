@@ -15,10 +15,12 @@ const root = document.getElementById('app');
 ReactDOM.render(
 	<Badge
 		props={{
-			logo: '',
+			logo: 'https://img.icons8.com/nolan/64/space-shuttle.png',
 			logoAlt: 'logo',
-			avatar: '',
+			avatar: 'https://img.icons8.com/officel/80/000000/user-male-circle.png',
 			avatarAlt: 'avatar',
+			job: 'frontend developer',
+			twitter: 'bernardoaguayo',
 		}}
 	/>,
 	root,

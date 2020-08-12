@@ -1,6 +1,9 @@
 //import react
 import React, { Component } from 'react';
 
+//import styles
+import '../styles/Badge.css';
+
 //class extends from react component
 export default class Badge extends Component {
 	//constructor
@@ -23,21 +26,25 @@ export default class Badge extends Component {
 	 */
 	render() {
 		return (
-			<div>
-				<header>
-					<img src={this.props.props.avatar} alt={this.props.props.logoAlt} />
+			<div className='badge'>
+				<header className='badge_header'>
+					<img src={this.props.props.logo} alt={this.props.props.logoAlt} />
 				</header>
-				<section>
-					<img src={this.props.props.avatar} alt={this.props.props.avatarAlt} />
+				<section className='badge_section-name'>
+					<img
+						className='badge_avatar'
+						src={this.props.props.avatar}
+						alt={this.props.props.avatarAlt}
+					/>
 					<h2>
 						Bernardo <br /> Aguayo
 					</h2>
 				</section>
-				<section>
-					<p>Frontend Engineer</p>
-					<p>@bernardoaguayo</p>
+				<section className='badge_section-info'>
+					<p>{this.props.props.job}</p>
+					<p>@{this.props.props.twitter}</p>
 				</section>
-				<footer>
+				<footer className='badge_footer'>
 					<span>#conf2020</span>
 				</footer>
 			</div>
