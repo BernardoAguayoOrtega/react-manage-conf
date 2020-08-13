@@ -2,19 +2,10 @@
 import React, { Component } from 'react';
 
 //import styles
-import '../styles/Badge.css';
+import './styles/Badge.css';
 
 //class extends from react component
 export default class Badge extends Component {
-	//constructor
-	/**
-	 * @description create class and add props
-	 * @param {props} props
-	 */
-	constructor(props) {
-		super();
-		this.props = props;
-	}
 	//render method
 	/**
 	 * @function render
@@ -28,21 +19,21 @@ export default class Badge extends Component {
 		return (
 			<div className='badge'>
 				<header className='badge_header'>
-					<img src={this.props.props.logo} alt={this.props.props.logoAlt} />
+					<img src={this.props.badge.logo} alt={this.props.badge.logoAlt} />
 				</header>
 				<section className='badge_section-name'>
 					<img
 						className='badge_avatar'
-						src={this.props.props.avatar}
-						alt={this.props.props.avatarAlt}
+						src={this.props.badge.avatar}
+						alt={this.props.badge.avatarAlt}
 					/>
 					<h2>
-						Bernardo <br /> Aguayo
+						{this.props.badge.name1} <br /> {this.props.badge.name2}
 					</h2>
 				</section>
 				<section className='badge_section-info'>
-					<p>{this.props.props.job}</p>
-					<p>@{this.props.props.twitter}</p>
+					<p>{this.props.badge.job}</p>
+					<p>@{this.props.badge.twitter}</p>
 				</section>
 				<footer className='badge_footer'>
 					<span>#conf2020</span>

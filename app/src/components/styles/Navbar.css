@@ -1,0 +1,31 @@
+/*navbar container*/
+.navbar-container {
+	border: 0.1rem solid black;
+	background-color: rgba(36, 37, 42, 1);
+	color: white;
+	font-size: 1rem;
+	font-weight: 100;
+	padding: 0.5rem;
+	font-family: monospace;
+}
+
+/*navbar styles*/
+.navbar {
+	display: flex;
+	align-items: center;
+}
+
+/*navbar figure*/
+.navbar > figure {
+	max-width: 4rem;
+}
+
+/*navbar img element*/
+.logo-img {
+	max-width: 100%;
+}
+
+/*word 1*/
+.logo-word1 {
+	margin-right: 0.5rem;
+}
