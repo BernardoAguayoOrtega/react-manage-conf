@@ -22,7 +22,7 @@
 .badge_header figure {
 	display: flex;
 	justify-content: center;
-	max-width: 60%;
+	max-width: 100%;
 }
 
 /*logo*/
@@ -75,6 +75,7 @@
 		max-width: 70%;
 		box-shadow: 0.5rem 0.5rem 0.5rem 1rem orange;
 		grid-area: badge;
+		padding: 2.5rem;
 	}
 
 	/*logo*/
@@ -94,9 +95,11 @@
 	}
 
 	/*figure*/
-
+	.badge_header figure {
+		width: 100%;
+	}
 	/*logo*/
 	.badge_header img {
-		max-width: 30%;
+		width: 100%;
 	}
 }

@@ -46,7 +46,7 @@ export default class BadgeNew extends Component {
 				<div className='badge-new-content'>
 					<Badge
 						badge={{
-							logo: 'https://img.icons8.com/cotton/2x/launch-rocket.png',
+							logo: 'https://img.icons8.com/plasticine/100/000000/rocket.png',
 							logoAlt: 'launch rocket',
 							avatar: 'https://img.icons8.com/dusk/2x/user-male.png',
 							avatarAlt: 'user image',

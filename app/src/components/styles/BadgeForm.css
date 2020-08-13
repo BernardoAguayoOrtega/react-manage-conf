@@ -53,6 +53,11 @@ button {
 		grid-area: form;
 	}
 
+	/*badge form*/
+	.badge-form {
+		padding: 2.5rem;
+	}
+
 	/*button*/
 	button {
 		padding: 0.05rem 2rem;
@@ -64,8 +69,7 @@ button {
 @media screen and (min-width: 425px) and (max-width: 767px) {
 	/*badge form container*/
 	.badge-form-container {
-		max-height: 30rem;
-		min-width: 100%;
+		padding: 5rem;
 		box-shadow: 0.5rem 0.5rem 0.5rem 1rem palevioletred;
 		grid-area: form;
 	}
