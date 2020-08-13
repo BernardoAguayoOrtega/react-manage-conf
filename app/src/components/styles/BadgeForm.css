@@ -2,14 +2,14 @@
 .badge-form-container {
 	max-height: 25rem;
 	min-width: 40%;
-	background-color: ivory;
 	margin: auto;
 	padding: 1rem;
 	background: linear-gradient(to right, #a80d27, #160422);
-	border: 0.1rem solid black;
+	border: 0.1rem solid white;
 	color: white;
 	border-radius: 1rem;
 	box-shadow: 0.5rem 0.5rem 0.5rem 1rem firebrick;
+	grid-area: form;
 }
 
 /*badge form*/
@@ -41,4 +41,21 @@ button {
 	padding: 0.3rem 1rem;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*query small an medium mobiles*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+	/*badge form container*/
+	.badge-form-container {
+		max-height: 30rem;
+		min-width: 40%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 1rem purple;
+		grid-area: form;
+	}
+
+	/*button*/
+	button {
+		padding: 0.05rem 2rem;
+		border-radius: 0.5rem;
+	}
 }

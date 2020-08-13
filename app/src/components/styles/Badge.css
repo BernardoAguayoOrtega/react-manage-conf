@@ -3,10 +3,11 @@
 	background: linear-gradient(to right, #c31432, #240b36);
 	max-width: 45%;
 	margin: 1rem auto;
-	border: 0.1rem solid black;
+	border: 0.1rem solid white;
 	color: white;
 	border-radius: 1rem;
 	box-shadow: 0.5rem 0.5rem 0.5rem 1rem blue;
+	grid-area: badge;
 }
 
 /*header*/
@@ -57,4 +58,15 @@
 	font-weight: bold;
 	font-style: italic;
 	border-top: 0.1rem solid black;
+}
+
+/*query small an medium mobiles*/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+	/*badge styles*/
+	.badge {
+		margin-top: 5rem;
+		max-width: 70%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 1rem orange;
+		grid-area: badge;
+	}
 }

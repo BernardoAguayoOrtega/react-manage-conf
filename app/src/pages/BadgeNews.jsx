@@ -62,6 +62,7 @@ export default class BadgeNew extends Component {
 					/>
 				</div>
 				<div id='stars'></div>
+				<div id='stars2'></div>
 			</div>
 		);
 	}
