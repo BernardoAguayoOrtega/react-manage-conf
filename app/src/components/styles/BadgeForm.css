@@ -5,9 +5,11 @@
 	background-color: ivory;
 	margin: auto;
 	padding: 1rem;
-	background-color: rgba(36, 37, 42, 1);
+	background: linear-gradient(to right, #a80d27, #160422);
 	border: 0.1rem solid black;
 	color: white;
+	border-radius: 1rem;
+	box-shadow: 0.5rem 0.5rem 0.5rem 1rem firebrick;
 }
 
 /*badge form*/
@@ -20,16 +22,18 @@
 
 /*label text*/
 label {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin-bottom: 0.5rem;
 }
 
 /*input*/
 input {
+	margin: 0 auto;
 	margin-bottom: 1rem;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.4);
 	min-width: 70%;
 	padding: 0.1rem;
+	border-radius: 1rem;
 }
 
 /*button*/

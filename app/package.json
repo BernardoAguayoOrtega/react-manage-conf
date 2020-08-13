@@ -13,7 +13,7 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
 		"gh-pages": "^3.1.0",

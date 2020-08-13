@@ -1,7 +1,6 @@
 /*hero*/
 .hero {
-	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-	padding: 1rem;
+	padding: 2rem;
 }
 
 /*hero text*/
@@ -18,4 +17,5 @@
 	background: -webkit-linear-gradient(white, #38495a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem #38495a;
 }

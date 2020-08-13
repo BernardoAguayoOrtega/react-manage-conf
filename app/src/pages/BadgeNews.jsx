@@ -11,6 +11,28 @@ import BadgeForm from '../components/BadgeForm';
 import './styles/BadgeNews.css';
 
 export default class BadgeNew extends Component {
+	//constructor
+	constructor() {
+		super();
+		this.state = {
+			form: {
+				firstName: '',
+				lastName: '',
+				email: '',
+				jobTitle: '',
+				twitter: '',
+			},
+		};
+	}
+	//handle change
+	handleChange = (event) => {
+		this.setState({
+			form: {
+				...this.state.form,
+				[event.target.name]: event.target.value,
+			},
+		});
+	};
 	//render method
 	render() {
 		return (
@@ -28,13 +50,16 @@ export default class BadgeNew extends Component {
 							logoAlt: 'launch rocket',
 							avatar: 'https://img.icons8.com/dusk/2x/user-male.png',
 							avatarAlt: 'user image',
-							name1: 'Bernardo',
-							name2: 'Aguayo',
-							job: 'Web Developer',
-							twitter: 'bernardoaguayo',
+							name1: this.state.form.firstName,
+							name2: this.state.form.lastName,
+							job: this.state.form.jobTitle,
+							twitter: this.state.form.twitter,
 						}}
 					/>
-					<BadgeForm />
+					<BadgeForm
+						onChange={this.handleChange}
+						formValues={this.state.form}
+					/>
 				</div>
 				<div id='stars'></div>
 			</div>

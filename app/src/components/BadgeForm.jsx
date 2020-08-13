@@ -6,67 +6,50 @@ import './styles/BadgeForm.css';
 
 //crete class extends from react components
 export default class BadgeForm extends Component {
-	//constructor
-	constructor() {
-		super();
-		this.state = {
-			name: '',
-			lastName: '',
-			email: '',
-			jobTitle: '',
-			twitter: '',
-		};
-	}
-	//handle change
-	handleChange = (event) => {
-		this.setState({
-			[event.target.name]: event.target.value,
-		});
-	};
-	//handle click
+	//handle submit
 	handleSubmit = (event) => {
 		event.preventDefault();
 		console.log('button was click');
 	};
-	//render
+	//
 	render() {
 		return (
 			<div className='badge-form-container'>
 				<form onSubmit={this.handleSubmit} className='badge-form'>
 					<label>Fist Name</label>
 					<input
-						onChange={this.handleChange}
+						onChange={this.props.onChange}
 						type='text'
-						name='name'
-						value={this.state.name}
+						name='firstName'
+						value={this.props.formValues.firstName}
 					/>
 					<label>Last Name</label>
 					<input
-						onChange={this.handleChange}
+						onChange={this.props.onChange}
 						type='text'
 						name='lastName'
-						value={this.state.lastName}
+						value={this.props.formValues.lastName}
 					/>
 					<label>Email</label>
 					<input
-						onChange={this.handleChange}
+						onChange={this.props.onChange}
 						type='email'
 						name='email'
-						value={this.state.email}
+						value={this.props.formValues.email}
 					/>
 					<label>Job Title</label>
 					<input
-						onChange={this.handleChange}
+						onChange={this.props.onChange}
 						type='text'
 						name='jobTitle'
-						value={this.state.jobTitle}
+						value={this.props.formValues.jobTitle}
 					/>
 					<label>Twitter</label>
 					<input
-						onChange={this.handleChange}
+						onChange={this.props.onChange}
 						type='text'
 						name='twitter'
-						value={this.state.twitter}
+						value={this.props.formValues.twitter}
 					/>
 					<button>Save</button>
 				</form>
