@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Badge from '../components/Badge';
+import BadgeForm from '../components/BadgeForm';
 
 //import styles
 import './styles/BadgeNews.css';
@@ -20,18 +21,21 @@ export default class BadgeNew extends Component {
 					href='#'
 				/>
 				<Hero up='Best' down='Conf Ever' />
-				<Badge
-					badge={{
-						logo: 'https://img.icons8.com/cotton/2x/launch-rocket.png',
-						logoAlt: 'launch rocket',
-						avatar: 'https://img.icons8.com/dusk/2x/user-male.png',
-						avatarAlt: 'user image',
-						name1: 'Bernardo',
-						name2: 'Aguayo',
-						job: 'Web Developer',
-						twitter: 'bernardoaguayo',
-					}}
-				/>
+				<div className='badge-new-content'>
+					<Badge
+						badge={{
+							logo: 'https://img.icons8.com/cotton/2x/launch-rocket.png',
+							logoAlt: 'launch rocket',
+							avatar: 'https://img.icons8.com/dusk/2x/user-male.png',
+							avatarAlt: 'user image',
+							name1: 'Bernardo',
+							name2: 'Aguayo',
+							job: 'Web Developer',
+							twitter: 'bernardoaguayo',
+						}}
+					/>
+					<BadgeForm />
+				</div>
 				<div id='stars'></div>
 			</div>
 		);

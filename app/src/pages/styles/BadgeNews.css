@@ -4,6 +4,13 @@ html {
 	height: 100vh;
 }
 
+/*badge-new-content*/
+.badge-new-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 /*stars*/
 #stars {
 	z-index: -1;

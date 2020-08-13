@@ -1,0 +1,40 @@
+/*Badge form*/
+.badge-form-container {
+	max-height: 25rem;
+	min-width: 40%;
+	background-color: ivory;
+	margin: auto;
+	padding: 1rem;
+	background-color: rgba(36, 37, 42, 1);
+	border: 0.1rem solid black;
+	color: white;
+}
+
+/*badge form*/
+.badge-form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+/*label text*/
+label {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/*input*/
+input {
+	margin-bottom: 1rem;
+	background-color: rgba(255, 255, 255, 0.8);
+	min-width: 70%;
+	padding: 0.1rem;
+}
+
+/*button*/
+button {
+	padding: 0.3rem 1rem;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}

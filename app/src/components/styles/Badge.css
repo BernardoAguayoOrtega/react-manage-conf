@@ -1,8 +1,8 @@
 /*badge styles*/
 .badge {
 	background-color: rgba(36, 37, 42, 1);
-	max-width: 50%;
-	margin: auto;
+	max-width: 45%;
+	margin: 1rem auto;
 	border: 0.1rem solid black;
 	color: white;
 }
