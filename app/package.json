@@ -1,34 +1,18 @@
 {
-  "name": "platzi-badges",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "start": "npm-run-all -p client server",
-    "client": "react-scripts start",
-    "server": "json-server --port 3001 --watch server/db.json",
-    "seed": "node server/seed.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "react": "16.8.3",
-    "react-dom": "16.8.3",
-    "react-scripts": "2.1.5"
-  },
-  "devDependencies": {
-    "faker": "^4.1.0",
-    "json-server": "^0.14.2",
-    "npm-run-all": "^4.1.5"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+	"name": "conf-manage-app",
+	"version": "1.0.0",
+	"description": "create a platform to keep track of attendees at the Conf, making it possible for each registered user to enter their personal information. Each of them will have a different role and this will be reflected in their insignia. Finally, you will create a page that will be able to list all the participants and filter them by type of role, or search by name.",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel ./public/index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
 }

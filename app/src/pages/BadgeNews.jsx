@@ -17,6 +17,7 @@ export default class BadgeNew extends Component {
 				<Navbar
 					src='https://img.icons8.com/cotton/2x/launch-rocket.png'
 					alt='Colorful rocket'
+					href='#'
 				/>
 				<Hero up='Best' down='Conf Ever' />
 				<Badge
@@ -31,6 +32,7 @@ export default class BadgeNew extends Component {
 						twitter: 'bernardoaguayo',
 					}}
 				/>
+				<div id='stars'></div>
 			</div>
 		);
 	}

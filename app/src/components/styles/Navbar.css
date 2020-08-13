@@ -9,6 +9,12 @@
 	font-family: monospace;
 }
 
+/*anchor element*/
+.navbar-container a {
+	color: white;
+	text-decoration: none;
+}
+
 /*navbar styles*/
 .navbar {
 	display: flex;
