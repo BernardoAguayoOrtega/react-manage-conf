@@ -12,7 +12,7 @@ export default class BadgesList extends Component {
 		return (
 			<div className='list-container'>
 				<div className='button-container'>
-					<Link to='badges/new' className='button'>
+					<Link to='/badges/new' className='button'>
 						Add
 					</Link>
 				</div>
