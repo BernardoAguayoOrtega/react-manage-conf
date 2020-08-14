@@ -3,7 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //import badge
-import BadgeNew from './pages/BadgeNews';
+//import BadgeNew from './pages/BadgeNews';
+import Badges from './pages/Badges';
 
 //const root o render the app
 const root = document.getElementById('app');
@@ -12,4 +13,4 @@ const root = document.getElementById('app');
 /**
  * @description Render virtual react dom
  */
-ReactDOM.render(<BadgeNew />, root);
+ReactDOM.render(<Badges />, root);

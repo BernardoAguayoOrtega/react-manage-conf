@@ -1,0 +1,73 @@
+/*list container*/
+.list-container {
+	width: 50%;
+}
+
+/*list*/
+.list {
+	width: 100%;
+	list-style-type: none;
+}
+
+/*list element*/
+.list li {
+	background: linear-gradient(to right, #345886f1, #160422);
+	box-shadow: 0.5rem 0.5rem 0.5rem firebrick;
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+/*lis info*/
+.list-info {
+	padding: 1rem;
+	color: white;
+}
+
+/*span*/
+.list-info span {
+	color: wheat;
+}
+
+/*figure*/
+figure {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+}
+
+/*img*/
+figure img {
+	border-radius: 2rem;
+}
+
+/*twitter*/
+.fa-twitter {
+	color: #1da1f2;
+	display: inline-flex;
+}
+
+/*button container*/
+.button-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+/*button*/
+.button-container button {
+	padding: 0.5rem 2rem;
+	color: white;
+	font-size: 1.2rem;
+	background: rgba(0, 0, 0, 0.5);
+	margin-right: 1rem;
+	border-radius: 1rem;
+}
+
+/*button hover*/
+.button-container button:hover {
+	font-size: 1.2rem;
+	background: rgba(0, 0, 0, 0);
+	border: 0.1rem solid white;
+	transition: 0.3s;
+}
