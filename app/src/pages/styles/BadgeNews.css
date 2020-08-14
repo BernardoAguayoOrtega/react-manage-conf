@@ -221,6 +221,16 @@ html {
 		align-items: center;
 		grid-template-areas: 'form' 'badge';
 	}
+
+	/*translation*/
+	@keyframes animStar {
+		from {
+			transform: translateY(0px);
+		}
+		to {
+			transform: translateY(-200rem);
+		}
+	}
 }
 
 /*query large mobiles*/
