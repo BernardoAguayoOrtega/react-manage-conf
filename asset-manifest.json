@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-manage-conf/badges/static/css/main.2eae7b07.chunk.css",
-    "main.js": "/react-manage-conf/badges/static/js/main.244b1b5d.chunk.js",
-    "main.js.map": "/react-manage-conf/badges/static/js/main.244b1b5d.chunk.js.map",
-    "runtime-main.js": "/react-manage-conf/badges/static/js/runtime-main.c0d5c353.js",
-    "runtime-main.js.map": "/react-manage-conf/badges/static/js/runtime-main.c0d5c353.js.map",
-    "static/js/2.8229fc91.chunk.js": "/react-manage-conf/badges/static/js/2.8229fc91.chunk.js",
-    "static/js/2.8229fc91.chunk.js.map": "/react-manage-conf/badges/static/js/2.8229fc91.chunk.js.map",
-    "index.html": "/react-manage-conf/badges/index.html",
-    "precache-manifest.1fa1f0a87e6917d331955094ecd62c1f.js": "/react-manage-conf/badges/precache-manifest.1fa1f0a87e6917d331955094ecd62c1f.js",
-    "service-worker.js": "/react-manage-conf/badges/service-worker.js",
-    "static/css/main.2eae7b07.chunk.css.map": "/react-manage-conf/badges/static/css/main.2eae7b07.chunk.css.map",
-    "static/js/2.8229fc91.chunk.js.LICENSE.txt": "/react-manage-conf/badges/static/js/2.8229fc91.chunk.js.LICENSE.txt"
+    "main.css": "/react-manage-conf/static/css/main.2eae7b07.chunk.css",
+    "main.js": "/react-manage-conf/static/js/main.244b1b5d.chunk.js",
+    "main.js.map": "/react-manage-conf/static/js/main.244b1b5d.chunk.js.map",
+    "runtime-main.js": "/react-manage-conf/static/js/runtime-main.e231641c.js",
+    "runtime-main.js.map": "/react-manage-conf/static/js/runtime-main.e231641c.js.map",
+    "static/js/2.8229fc91.chunk.js": "/react-manage-conf/static/js/2.8229fc91.chunk.js",
+    "static/js/2.8229fc91.chunk.js.map": "/react-manage-conf/static/js/2.8229fc91.chunk.js.map",
+    "index.html": "/react-manage-conf/index.html",
+    "precache-manifest.8fb8c472756f63330191c851a3ef3961.js": "/react-manage-conf/precache-manifest.8fb8c472756f63330191c851a3ef3961.js",
+    "service-worker.js": "/react-manage-conf/service-worker.js",
+    "static/css/main.2eae7b07.chunk.css.map": "/react-manage-conf/static/css/main.2eae7b07.chunk.css.map",
+    "static/js/2.8229fc91.chunk.js.LICENSE.txt": "/react-manage-conf/static/js/2.8229fc91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0d5c353.js",
+    "static/js/runtime-main.e231641c.js",
     "static/js/2.8229fc91.chunk.js",
     "static/css/main.2eae7b07.chunk.css",
     "static/js/main.244b1b5d.chunk.js"
