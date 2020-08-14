@@ -60,10 +60,10 @@
 	/*badge styles*/
 	.badge {
 		margin-top: 5rem;
-		max-width: 70%;
+		min-width: 90%;
 		box-shadow: 0.5rem 0.5rem 0.5rem 1rem orange;
 		grid-area: badge;
-		padding: 4rem;
+		padding: 1rem;
 	}
 
 	/*header avatar*/
