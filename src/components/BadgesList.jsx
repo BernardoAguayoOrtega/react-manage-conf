@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 //import styles
 import './styles/BadgesList.css';
+import { Link } from 'react-router-dom';
 
 //create class extends to react component
 export default class BadgesList extends Component {
@@ -11,7 +12,9 @@ export default class BadgesList extends Component {
 		return (
 			<div className='list-container'>
 				<div className='button-container'>
-					<button className='button'>Add</button>
+					<Link to='badges/new' className='button'>
+						Add
+					</Link>
 				</div>
 				<ul className='list'>
 					{this.props.badges.data.map((value) => {

@@ -22,7 +22,7 @@
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "^3.4.3"
 	},
-	"homepage": "https://bernardoaguayoortega.github.io/react-manage-conf/",
+	"homepage": "https://bernardoaguayoortega.github.io/react-manage-conf",
 	"browserslist": {
 		"production": [
 			">0.2%",
