@@ -212,7 +212,7 @@ html {
 @media screen and (min-width: 320px) and (max-width: 424px) {
 	/*change rem*/
 	html {
-		font-size: 10px;
+		font-size: 12px;
 	}
 	/*badge-new-content*/
 	.badge-new-content {

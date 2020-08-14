@@ -19,9 +19,7 @@ export default class Badge extends Component {
 		return (
 			<div className='badge'>
 				<header className='badge_header'>
-					<figure>
-						<img src={this.props.badge.logo} alt={this.props.badge.logoAlt} />
-					</figure>
+					<h2>{this.props.badge.text}</h2>
 				</header>
 				<section className='badge_section-name'>
 					<img
