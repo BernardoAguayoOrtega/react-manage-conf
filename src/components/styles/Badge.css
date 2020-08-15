@@ -55,13 +55,12 @@
 	border-top: 0.1rem solid white;
 }
 
-/*query small and medium mobiles*/
-@media screen and (min-width: 320px) and (max-width: 424px) {
+/*query small mobiles*/
+@media screen and (min-width: 320px) and (max-width: 374px) {
 	/*badge styles*/
 	.badge {
-		margin-top: 5rem;
 		min-width: 90%;
-		box-shadow: 0.5rem 0.5rem 0.5rem 1rem orange;
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem orange;
 		grid-area: badge;
 		padding: 1rem;
 	}
@@ -72,22 +71,81 @@
 	}
 }
 
-/*query small and medium mobiles*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+/*query medium mobiles*/
+@media screen and (min-width: 375px) and (max-width: 424px) {
 	/*badge styles*/
 	.badge {
 		margin-top: 5rem;
-		min-width: 100%;
+		min-width: 90%;
 		box-shadow: 0.5rem 0.5rem 0.5rem 1rem violet;
 		grid-area: badge;
+		padding: 1rem;
 	}
 
 	/*header avatar*/
 	.badge_avatar {
-		border-radius: 50%;
-		margin-right: 1rem;
-		width: 6rem;
-		height: 6rem;
-		border: 0.1rem white solid;
+		margin-right: 0rem;
+	}
+}
+
+/*query large mobiles*/
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	/*badge styles*/
+	.badge {
+		margin-top: 5rem;
+		min-width: 90%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 1rem greenyellow;
+		grid-area: badge;
+		padding: 1rem;
+	}
+
+	/*header avatar*/
+	.badge_avatar {
+		margin-right: 0rem;
+	}
+}
+
+/*query tablets mobiles*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	/*badge styles*/
+	.badge {
+		min-width: 30%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 1rem blueviolet;
+		padding: 0.5rem;
+	}
+
+	/*header avatar*/
+	.badge_avatar {
+		margin-right: 0rem;
+	}
+}
+
+/*query tablets mobiles*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	/*badge styles*/
+	.badge {
+		min-width: 30%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 1rem coral;
+		padding: 0.5rem;
+	}
+
+	/*header avatar*/
+	.badge_avatar {
+		margin-right: 0rem;
+	}
+}
+
+/*query tablets mobiles*/
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+	/*badge styles*/
+	.badge {
+		min-width: 30%;
+		box-shadow: 0.5rem 0.5rem 0.5rem 1rem aqua;
+		padding: 0.5rem;
+	}
+
+	/*header avatar*/
+	.badge_avatar {
+		margin-right: 0rem;
 	}
 }

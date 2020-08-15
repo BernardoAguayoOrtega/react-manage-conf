@@ -1,6 +1,5 @@
 /*Badge form*/
 .badge-form-container {
-	max-height: 25rem;
 	min-width: 40%;
 	margin: auto;
 	padding: 1rem;
@@ -21,34 +20,32 @@
 }
 
 /*label text*/
-label {
+.badge-form label {
 	font-size: 1.2rem;
 	margin-bottom: 0.5rem;
 }
 
 /*input*/
-input {
+.badge-form input {
 	margin: 0 auto;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 	background-color: rgba(255, 255, 255, 0.4);
-	min-width: 70%;
 	padding: 0.1rem;
 	border-radius: 1rem;
 }
 
 /*button*/
-button {
+.badge-form button {
 	padding: 0.3rem 1rem;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*query small an medium mobiles*/
-@media screen and (min-width: 320px) and (max-width: 424px) {
+/*query small */
+@media screen and (min-width: 320px) and (max-width: 374px) {
 	/*badge form container*/
 	.badge-form-container {
-		max-height: 40rem;
-		box-shadow: 0.5rem 0.5rem 0.5rem 1rem purple;
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem orange;
 		grid-area: form;
 		width: 90%;
 	}
@@ -59,35 +56,194 @@ button {
 	}
 
 	/*label*/
-	label {
+	.badge-form label {
 		font-size: 1.5rem;
 	}
 
 	/*input*/
-	input {
-		width: 20rem;
+	.badge-form input {
+		width: 10rem;
 		padding: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	/*button*/
-	button {
+	.badge-form button {
+		margin-top: 0.5rem;
 		padding: 0.5rem 3.5rem;
 		border-radius: 0.5rem;
 	}
 }
 
-/*query large mobiles*/
-@media screen and (min-width: 425px) and (max-width: 767px) {
+/*query medium mobiles */
+@media screen and (min-width: 375px) and (max-width: 424px) {
 	/*badge form container*/
 	.badge-form-container {
-		padding: 5rem;
-		box-shadow: 0.5rem 0.5rem 0.5rem 1rem palevioletred;
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem violet;
 		grid-area: form;
+		width: 90%;
+	}
+
+	/*badge form*/
+	.badge-form {
+		padding: 0rem;
+	}
+
+	/*label*/
+	.badge-form label {
+		font-size: 1.5rem;
+	}
+
+	/*input*/
+	.badge-form input {
+		width: 15rem;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	/*button*/
-	button {
-		padding: 0.2rem 3rem;
+	.badge-form button {
+		margin-top: 0.5rem;
+		padding: 0.5rem 3.5rem;
+		border-radius: 0.5rem;
+	}
+}
+
+/*query large mobiles */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	/*badge form container*/
+	.badge-form-container {
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem greenyellow;
+		grid-area: form;
+		width: 85%;
+	}
+
+	/*badge form*/
+	.badge-form {
+		padding: 0.5rem;
+	}
+
+	/*label*/
+	.badge-form label {
+		font-size: 1.5rem;
+	}
+
+	/*input*/
+	.badge-form input {
+		width: 16rem;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	/*button*/
+	.badge-form button {
+		margin-top: 0.5rem;
+		padding: 0.5rem 3.5rem;
+		border-radius: 0.5rem;
+	}
+}
+
+/*query large mobiles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	/*badge form container*/
+	.badge-form-container {
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem blueviolet;
+		width: 40%;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	/*badge form*/
+	.badge-form {
+		padding: 0;
+	}
+
+	/*label*/
+	.badge-form label {
+		font-size: 1.5rem;
+	}
+
+	/*input*/
+	.badge-form input {
+		width: 16rem;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	/*button*/
+	.badge-form button {
+		margin-top: 0.5rem;
+		padding: 0.6rem 5rem;
+		border-radius: 0.5rem;
+	}
+}
+
+/*query small desktops */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+	/*badge form container*/
+	.badge-form-container {
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem coral;
+		width: 40%;
+		margin: auto;
+		margin-bottom: 5rem;
+	}
+
+	/*badge form*/
+	.badge-form {
+		padding: 0;
+	}
+
+	/*label*/
+	.badge-form label {
+		font-size: 1.5rem;
+	}
+
+	/*input*/
+	.badge-form input {
+		width: 16rem;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	/*button*/
+	.badge-form button {
+		margin-top: 0.5rem;
+		padding: 0.6rem 5rem;
+		border-radius: 0.5rem;
+	}
+}
+
+/*query small desktops */
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+	/*badge form container*/
+	.badge-form-container {
+		box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem aqua;
+		width: 40%;
+		margin: auto;
+		margin-bottom: 5rem;
+	}
+
+	/*badge form*/
+	.badge-form {
+		padding: 0;
+	}
+
+	/*label*/
+	.badge-form label {
+		font-size: 1.5rem;
+	}
+
+	/*input*/
+	.badge-form input {
+		width: 16rem;
+		padding: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	/*button*/
+	.badge-form button {
+		margin-top: 0.5rem;
+		padding: 0.6rem 5rem;
 		border-radius: 0.5rem;
 	}
 }

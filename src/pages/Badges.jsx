@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 
 //components
-import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import BadgesList from '../components/BadgesList';
 
@@ -54,15 +53,11 @@ export default class Badges extends Component {
 	render() {
 		return (
 			<div className='badges'>
-				<Navbar
-					src='https://img.icons8.com/cotton/2x/launch-rocket.png'
-					alt='Colorful rocket'
-					href='#'
-				/>
 				<Hero up='Badges' down='List' />
 				<div className='badges-list'>
 					<BadgesList badges={this.state} />
 				</div>
+				<div id='starts'></div>
 			</div>
 		);
 	}

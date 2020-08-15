@@ -1,24 +1,32 @@
 //import react
-import React, { Component } from 'react';
+import React from 'react';
 
 //import react router
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 //import pages
 import BadgeNew from '../pages/BadgeNews';
 import Badges from '../pages/Badges';
+import NotFound from '../pages/404';
+
+//import components
+import Layout from './Layout';
+import Home from '../pages/Home';
 
 //functional component
-export default class App extends Component {
+export default function App() {
 	//render method
-	render() {
-		return (
-			<HashRouter basename='/'>
+	return (
+		<HashRouter basename='/'>
+			<Layout>
 				<Switch>
+					<Route exact path='/' component={Home} />
 					<Route exact path='/badges' component={Badges} />
 					<Route exact path='/badges/new' component={BadgeNew} />
+					<Route path='/404' component={NotFound} />
+					<Redirect from='*' to='/404' />
 				</Switch>
-			</HashRouter>
-		);
-	}
+			</Layout>
+		</HashRouter>
+	);
 }

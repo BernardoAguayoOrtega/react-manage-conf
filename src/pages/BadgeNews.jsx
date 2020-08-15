@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 
 //import components
-import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
@@ -36,12 +35,7 @@ export default class BadgeNew extends Component {
 	//render method
 	render() {
 		return (
-			<div>
-				<Navbar
-					src='https://img.icons8.com/cotton/2x/launch-rocket.png'
-					alt='Colorful rocket'
-					href='#'
-				/>
+			<React.Fragment>
 				<Hero up='Best' down='Conf Ever' />
 				<div className='badge-new-content'>
 					<Badge
@@ -59,10 +53,9 @@ export default class BadgeNew extends Component {
 						onChange={this.handleChange}
 						formValues={this.state.form}
 					/>
+					<div id='stars'></div>
 				</div>
-				<div id='stars'></div>
-				<div id='stars2'></div>
-			</div>
+			</React.Fragment>
 		);
 	}
 }
