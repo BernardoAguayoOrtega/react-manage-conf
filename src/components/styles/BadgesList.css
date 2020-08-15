@@ -67,17 +67,16 @@
 
 /*button hover*/
 .button-container .button:hover {
-	font-size: 1.2rem;
 	background: rgba(0, 0, 0, 0);
-	border: 0.1rem solid white;
-	transition: 0.3s;
+	border: 0.01rem solid white;
+	transition: 0.2s;
 }
 
 /*small devices*/
 @media screen and (min-width: 320px) and (max-width: 374px) {
 	/*list container*/
 	.list-container {
-		width: 90%;
+		width: 100%;
 	}
 
 	/*list element*/
@@ -88,11 +87,12 @@
 	/*figure*/
 	.list figure {
 		padding: 1rem;
+		width: 100%;
 	}
 
 	/*img*/
 	.list figure img {
-		width: 85%;
+		width: 100%;
 		border-radius: 2rem;
 	}
 }

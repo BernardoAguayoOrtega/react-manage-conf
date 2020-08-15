@@ -5,13 +5,13 @@ import React from 'react';
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 //import pages
+import Home from '../pages/Home';
 import BadgeNew from '../pages/BadgeNews';
 import Badges from '../pages/Badges';
 import NotFound from '../pages/404';
 
 //import components
 import Layout from './Layout';
-import Home from '../pages/Home';
 
 //functional component
 export default function App() {
