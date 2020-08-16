@@ -21,14 +21,14 @@ export default class BadgesList extends Component {
 						return (
 							<li key={value.id}>
 								<figure>
-									<img src={value.avatarUrl} alt='  avatar' />
+									<img src={value.image} alt='  avatar' />
 								</figure>
 								<div className='list-info'>
-									<h3>{`${value.firstName} ${value.lastName}`}</h3>
+									<h3>{value.name}</h3>
 									<i className='fab fa-twitter'>
-										<span>{` @${value.twitter}`}</span>
+										<span>{` @${value.name}`}</span>
 									</i>
-									<p>{value.jobTitle}</p>
+									<p>{value.type}</p>
 								</div>
 							</li>
 						);

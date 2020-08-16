@@ -35,6 +35,7 @@
 	display: flex;
 	align-items: center;
 	padding: 1rem;
+	width: 30%;
 }
 
 /*img*/
@@ -84,10 +85,11 @@
 		box-shadow: 0.5rem 0.5rem 0.5rem darkturquoise;
 		margin: 1.5rem 1rem;
 	}
+
 	/*figure*/
 	.list figure {
 		padding: 1rem;
-		width: 100%;
+		width: 40%;
 	}
 
 	/*img*/
@@ -109,9 +111,11 @@
 		box-shadow: 0.5rem 0.5rem 0.5rem forestgreen;
 		margin: 1.5rem 1rem;
 	}
+
 	/*figure*/
 	.list figure {
 		padding: 1rem;
+		width: 40%;
 	}
 
 	/*img*/
@@ -133,14 +137,16 @@
 		box-shadow: 0.5rem 0.5rem 0.5rem yellow;
 		margin: 1.5rem 1rem;
 	}
+
 	/*figure*/
 	.list figure {
 		padding: 1rem;
+		width: 40%;
 	}
 
 	/*img*/
 	.list figure img {
-		width: 85%;
+		width: 100%;
 		border-radius: 2rem;
 	}
 }
