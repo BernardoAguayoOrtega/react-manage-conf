@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-manage-conf/static/css/main.c9ffc13e.chunk.css",
-    "main.js": "/react-manage-conf/static/js/main.1820fba9.chunk.js",
-    "main.js.map": "/react-manage-conf/static/js/main.1820fba9.chunk.js.map",
+    "main.css": "/react-manage-conf/static/css/main.3daa7936.chunk.css",
+    "main.js": "/react-manage-conf/static/js/main.f39ca6e5.chunk.js",
+    "main.js.map": "/react-manage-conf/static/js/main.f39ca6e5.chunk.js.map",
     "runtime-main.js": "/react-manage-conf/static/js/runtime-main.e231641c.js",
     "runtime-main.js.map": "/react-manage-conf/static/js/runtime-main.e231641c.js.map",
-    "static/js/2.69588e22.chunk.js": "/react-manage-conf/static/js/2.69588e22.chunk.js",
-    "static/js/2.69588e22.chunk.js.map": "/react-manage-conf/static/js/2.69588e22.chunk.js.map",
+    "static/js/2.088c3eac.chunk.js": "/react-manage-conf/static/js/2.088c3eac.chunk.js",
+    "static/js/2.088c3eac.chunk.js.map": "/react-manage-conf/static/js/2.088c3eac.chunk.js.map",
     "index.html": "/react-manage-conf/index.html",
-    "precache-manifest.7064077c3785de6c5757115bae870d99.js": "/react-manage-conf/precache-manifest.7064077c3785de6c5757115bae870d99.js",
+    "precache-manifest.5c3ee9a0290539fbbcf75e0f8cc74c53.js": "/react-manage-conf/precache-manifest.5c3ee9a0290539fbbcf75e0f8cc74c53.js",
     "service-worker.js": "/react-manage-conf/service-worker.js",
-    "static/css/main.c9ffc13e.chunk.css.map": "/react-manage-conf/static/css/main.c9ffc13e.chunk.css.map",
-    "static/js/2.69588e22.chunk.js.LICENSE.txt": "/react-manage-conf/static/js/2.69588e22.chunk.js.LICENSE.txt",
+    "static/css/main.3daa7936.chunk.css.map": "/react-manage-conf/static/css/main.3daa7936.chunk.css.map",
+    "static/js/2.088c3eac.chunk.js.LICENSE.txt": "/react-manage-conf/static/js/2.088c3eac.chunk.js.LICENSE.txt",
     "static/media/astronaut-2.png": "/react-manage-conf/static/media/astronaut-2.fd0d02fd.png",
     "static/media/astronaut-3.png": "/react-manage-conf/static/media/astronaut-3.12f78700.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e231641c.js",
-    "static/js/2.69588e22.chunk.js",
-    "static/css/main.c9ffc13e.chunk.css",
-    "static/js/main.1820fba9.chunk.js"
+    "static/js/2.088c3eac.chunk.js",
+    "static/css/main.3daa7936.chunk.css",
+    "static/js/main.f39ca6e5.chunk.js"
   ]
 }
