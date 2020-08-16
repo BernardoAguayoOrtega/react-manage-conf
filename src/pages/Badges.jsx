@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 //components
 import Hero from '../components/Hero';
 import BadgesList from '../components/BadgesList';
+import Loading from './Loading';
+import Error from './Error';
 
 //styles
 import './styles/Badges.css';
@@ -53,11 +55,11 @@ export default class Badges extends Component {
 	//render method
 	render() {
 		if (this.state.loading) {
-			return (
-				<React.Fragment>
-					<h1>Loading..</h1>
-				</React.Fragment>
-			);
+			return <Loading />;
+		}
+
+		if (this.state.error) {
+			return <Error error={this.state.error} />;
 		}
 
 		return (

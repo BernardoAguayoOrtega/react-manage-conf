@@ -9,6 +9,19 @@ import { Link } from 'react-router-dom';
 export default class BadgesList extends Component {
 	//render
 	render() {
+		if (this.props.badges.data.length === 0) {
+			return (
+				<React.Fragment>
+					<div className='button-container'>
+						<Link to='/badges/new' className='button'>
+							Add
+						</Link>
+					</div>
+					<h3>No badges were found</h3>
+				</React.Fragment>
+			);
+		}
+
 		return (
 			<div className='list-container'>
 				<div className='button-container'>
